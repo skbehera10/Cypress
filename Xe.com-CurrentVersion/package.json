@@ -1,0 +1,22 @@
+{
+  "name": "xe.com",
+  "version": "1.0.0",
+  "description": "To automate xe.com",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "delete:reports": "rm -rf cypress/report/* && rm -rf mochawesome.json && rm -rf target",
+    "pre-test": "npm run delete:reports",
+    "run-all-tests": "node_modules/cypress/bin/cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "xe"
+  ],
+  "author": "Santosh Kumar Behera",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}

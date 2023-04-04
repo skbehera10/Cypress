@@ -1,0 +1,18 @@
+{ "baseUrl" : "https://www.xe.com",
+  "viewportHeight": 660,
+  "viewportWidth": 1000,
+  "downloadsFolder": "cypress/downloads",
+  "video": false,
+  "ignoreTestFiles": ["*Locators.js"],
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "charts": true,
+      "reportDir": "cypress/report",
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "timestamp": "ddmmyyyy_HHMMss"
+   
+  }
+  
+}
